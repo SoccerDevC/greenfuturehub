@@ -11,7 +11,7 @@ import pickle
 import json
 
 app = FastAPI()
-
+#new class
 class model_input(BaseModel):
     Pregnancies :int
     Glucose : int 
