@@ -23,10 +23,175 @@ html{
 }
 section{
     padding: 4% 6%;
-    background-image: url('images/bg.avif');
+    background-image: url('images/trees.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/* Ways to Conserve Section */
+.ways-to-conserve {
+    background-color: #e2f7e2;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Heading Style */
+.ways-to-conserve .heading h1 {
+    font-size: 36px;
+    color: #4c9a2a;
+    margin-bottom: 30px;
+}
+
+/* Content Styling */
+.ways-to-conserve .content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.ways-to-conserve h2 {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Category Styling */
+.ways-to-conserve .category {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ways-to-conserve .category h3 {
+    font-size: 22px;
+    color: #4c9a2a;
+    margin-bottom: 10px;
+}
+
+.ways-to-conserve .category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ways-to-conserve .category ul li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+/* Button Styling */
+.ways-to-conserve .btn {
+    background-color: #4c9a2a;
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ways-to-conserve .btn:hover {
+    background-color: #388a20;
+}
+/* Conservation Measures Section */
+.conservation-measures {
+    background-color: #f0f8ff;
+    background-image: url('images/pollution.jpg');
+    padding: 50px 30px;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+}
+.about{
+    background-image: url('images/together.jpg');
+
+}
+/* Heading Style */
+.conservation-measures .heading h1 {
+    font-size: 40px;
+    color: #1f6f3a;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Content Styling */
+.conservation-measures .content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.conservation-measures h2 {
+    font-size: 32px;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+/* Category Styling */
+.conservation-measures .category {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.conservation-measures .category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.conservation-measures .category h3 {
+    font-size: 24px;
+    color: #1f6f3a;
+    margin-bottom: 15px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+/* Category List Styling */
+.conservation-measures .category ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.conservation-measures .category ul li {
+    font-size: 18px;
+    color: #34495e;
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+/* Button Styling */
+.conservation-measures .btn {
+    background-color: #1f6f3a;
+    color: white;
+    font-size: 20px;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+}
+
+.conservation-measures .btn:hover {
+    background-color: #145c2e;
+    transform: scale(1.05);
+}
+
+.conservation-measures .btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #ff9f00;
+}
+
 .btn{
     height: 5rem;
     width: 16rem;
@@ -73,7 +238,7 @@ section{
 .heading{
     text-align: center;
     font-size: 4rem;
-    color: #555;
+    color: white;
     padding: 1rem;
     padding-top: 5rem;
 }
@@ -167,7 +332,7 @@ header .fa-bars{
 }
 .about .row .content p{
     font-size: 1.5rem;
-    color: #666;
+    color: white;
     padding: 1rem 0;
     line-height: 1.5;
     margin-bottom: 1rem;
@@ -535,6 +700,7 @@ header .fa-bars{
     font-size: 3rem;
     color: #fff;
 }
+
 .footer .box-container .box:nth-child(2) a{
     text-align: center;
     font-size: 1.7rem;
@@ -594,16 +760,17 @@ header .fa-bars{
 .navbar ul li a {
     color: black; 
 }
-
-.about-page .navbar ul li a {
-    color: rgb(0, 0, 0); 
+.about{
+    color: white;
 }
 
 .projects-page .navbar ul li a {
     color:  rgb(0, 0, 0); 
 }
 
-
+.conserve-page .navbar ul li a {
+    color:  rgb(0, 0, 0); 
+}
 
 
 
