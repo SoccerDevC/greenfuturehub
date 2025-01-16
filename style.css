@@ -103,7 +103,7 @@ header .navbar ul li{
 }
 header .navbar ul li a{
     font-size: 2rem;
-    color: #000;
+    color: white;
     font-style: italic;
 }
 header .navbar ul li a:hover{
@@ -120,7 +120,7 @@ header .fa-bars{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('images/banner.jpg');
+    background-image: url('images/Back.jpg');
     background-size: cover;
 }
 .home .content{
@@ -138,7 +138,7 @@ header .fa-bars{
 }
 .home .content p{
     font-size: 1.9rem;
-    color: lightgray;
+    color: rgb(49, 43, 43);
     padding: 1rem 0;
     margin-bottom: 2rem;
     width: 70rem;
@@ -586,10 +586,22 @@ header .fa-bars{
 .footer .credit span {
     color: var(--green);
 }
+.header-logo{
+    height: 50px;
+    width: 100px;
+    background-color: transparent;
+}
+.navbar ul li a {
+    color: black; 
+}
 
+.about-page .navbar ul li a {
+    color: rgb(0, 0, 0); 
+}
 
-
-
+.projects-page .navbar ul li a {
+    color:  rgb(0, 0, 0); 
+}
 
 
 
