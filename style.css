@@ -102,7 +102,7 @@ section.meet-team {
     color: #2f8035;
 }
 .about {
-    background-image: url('images/together.webp');
+    background-image: url('images/black.webp');
     background-size: cover;
     padding: 40px 10%;
     text-align: center;
@@ -122,7 +122,6 @@ section.meet-team {
 }
 
 .about .content {
-    background-color: #ebba95; 
     flex: 1;
     padding: 20px;
 }
